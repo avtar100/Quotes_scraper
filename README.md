@@ -21,7 +21,15 @@ This scraper supports pagination, structured CSV export, and safe execution in b
 
 - Python 3
 - requests  
-- beautifulsoup4  
+- beautifulsoup4
+
+## Installation
+
+pip install -r requirements.txt
+
+## Usage
+
+python quotes_scraper.py --pages 3 --output quotes.csv
 - csv  
 - argparse  
 
